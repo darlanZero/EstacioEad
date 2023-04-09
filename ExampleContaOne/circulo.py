@@ -7,5 +7,5 @@ class circulo ():
         self._total_circulos += 1
 
     @classmethod
-    def get total_circulos(cls):
+    def get _total_circulos(cls):
         return cls._total_circulos

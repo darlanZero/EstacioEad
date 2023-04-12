@@ -10,3 +10,7 @@ class ContaRemuneradaPoupanca(Conta, ContaPoupanca):
     def remuneraConta(self):
         self.saldo += self.saldo * (self.taxaRemuneracao/30)
         self.saldo -= self.taxaRemuneracao
+
+cx = ContaRemuneradaPoupanca([c1, c2], 98939123, 1500.00, 0.03)
+cx.remuneraConta()
+print(cx.saldo)

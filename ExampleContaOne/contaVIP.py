@@ -1,5 +1,6 @@
 from contaPoupanca import ContaCliente
-class ContaComum(ContaCliente):
+
+class ContaVIP(ContaCliente):
     def __init__(self, numero, IOF, IR, valorInvestido, taxaRendimento):
         super().__init__(numero, IOF, IR, valorInvestido, taxaRendimento)
 
